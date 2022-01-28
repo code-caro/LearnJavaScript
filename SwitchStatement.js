@@ -1,4 +1,4 @@
-/*Selecting from Many Options with Switch Statements*/
+/*selecting from many options with switch statements*/
 function caseInSwitch(val) {
   let answer = "";
   switch(val) {
@@ -21,7 +21,7 @@ function caseInSwitch(val) {
 caseInSwitch(1);
 
 
-/*Adding a default option in switch statements */
+/*adding a default option in switch statements */
 function switchOfStuff(val) {
   let answer = "";
   switch (val) {
@@ -41,3 +41,29 @@ function switchOfStuff(val) {
 }
 
 switchOfStuff(1);
+
+/*multiple identical options in switch statements*/
+function sequentialSizes(val) {
+  let answer = "";
+  switch(val) {
+    case 1:
+    case 2:
+    case 3:
+      answer = "Low";
+      break;
+    case 4:
+    case 5:
+    case 6:
+      answer = "Mid";
+      break;
+    case 7:
+    case 8:
+    case 9:
+      answer = "High";
+      break;
+  }
+  return answer;
+}
+
+sequentialSizes(1);
+
