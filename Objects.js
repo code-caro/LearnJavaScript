@@ -38,3 +38,19 @@ function checkObj(obj, checkProp) {
   } 
     return "Not Found";
 }
+
+
+/*accessing nested objects*/
+const myStorage = {
+  "car": {
+    "inside": {
+      "glove box": "maps",
+      "passenger seat": "crumbs"
+     },
+    "outside": {
+      "trunk": "jack"
+    }
+  }
+};
+
+const gloveBoxContents = myStorage.car.inside["glove box"];
