@@ -8,7 +8,7 @@ while(i >= 0) {
   i--;
 }
 
-
+//-----------------------------------------------------------------------------
 /*for*/
 // Setup
 const myArray2 = [];
@@ -55,3 +55,15 @@ function multiplyAll(arr) {
 
 // Modify values below to test your code
 multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
+
+//-----------------------------------------------------------------------------
+
+/*do...while*/
+// Setup
+const myArray = [];
+let i = 10;
+
+do {
+  myArray.push(i);
+  i++;
+} while (i < 5);
