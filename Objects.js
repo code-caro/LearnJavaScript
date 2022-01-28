@@ -28,3 +28,13 @@ function phoneticLookup(val) {
 }
 
 phoneticLookup("charlie");
+
+
+/*testing objects for properties*/
+function checkObj(obj, checkProp) {
+  // Only change code below this line
+  if (obj.hasOwnProperty(checkProp)){
+    return obj[checkProp];
+  } 
+    return "Not Found";
+}
