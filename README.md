@@ -1,2 +1,2 @@
 # Learn_JavaScript
-Various exercises for learning JajaScript
+Various exercises for learning JavaScript
